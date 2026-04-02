@@ -212,7 +212,6 @@ void Display::showBootTest() {
 
     fillScreen(rgb565(5, 5, 5));
     drawText(16, 24, "ESP32-S3 BOT", rgb565(255, 220, 80), rgb565(5, 5, 5), 3);
-    drawText(28, 70, "LCD + AUDIO", rgb565(120, 240, 255), rgb565(5, 5, 5), 2);
     delay(600);
 }
 
