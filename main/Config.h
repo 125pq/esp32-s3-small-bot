@@ -40,4 +40,4 @@
 #define SERIAL_PLOT_MAX 4095
 #define SERIAL_PLOT_INTERVAL_MS 25
 
-#endif // CONFIG_H
+#endif // CONFIG_H 
