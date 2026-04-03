@@ -27,6 +27,11 @@
 #define I2S_PORT I2S_NUM_0
 #define I2S_BUFFER_LEN 64
 
+// MAX98357A pins
+#define MAX_BCLK_PIN 41
+#define MAX_LRC_PIN 40
+#define MAX_DIN_PIN 42
+
 // Serial and app timing
 #define SERIAL_BAUD 115200
 #define DISPLAY_UPDATE_MS 100

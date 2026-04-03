@@ -3,6 +3,7 @@
 #include "Config.h"
 #include "Display.h"
 #include "SoundVisualizer.h"
+#include "WiFi_Module.h"
 
 Display display;
 SoundVisualizer soundVisualizer;
@@ -10,6 +11,9 @@ SoundVisualizer soundVisualizer;
 void setup() {
 	Serial.begin(SERIAL_BAUD);
 	delay(300);
+
+	// Call the encapsulated WiFi connection function from the external file
+	connectToWiFi();
 
 	#if ENABLE_DISPLAY_OUTPUT
 	display.init();
